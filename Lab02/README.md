@@ -50,7 +50,7 @@ Chương trình Console C# quản lý một mảng số nguyên. Chương trình
 ![Tinh tong](screenshots/tinh_tong.png)
 
 ### Giá trị min và max
-![Gia tri min va max](screenshots/gia_tri_min_va_max.png)
+![Gia tri min va max](screenshots/Gia_tri_min_va_max.png)
 
 ### Số lượng phần tử chẵn và lẻ
 ![So luong phan tu chan và le](screenshots/dem_chan_va_le.png)
