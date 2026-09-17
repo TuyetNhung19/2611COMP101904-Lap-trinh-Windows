@@ -3,7 +3,7 @@
 ## Thông tin sinh viên
 - Họ tên: Võ Ngọc Tuyết Nhung
 - MSSV: 49.01.103.058
-- Lớp: 49.01.103.058
+- Lớp: 49.01.SPTIN.A
 
 ## Mô tả
 Ứng dụng Console C# quản lý nhân viên, áp dụng các kiến thức về Class, Property, Constructor, Encapsulation, Kế thừa và Đa hình.
