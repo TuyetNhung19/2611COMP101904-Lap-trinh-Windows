@@ -51,7 +51,7 @@ thay vì dừng đột ngột.
 Chương trình dùng định dạng số kiểu Việt Nam (`vi-VN`): dấu `.` là phân
 cách hàng nghìn. Ví dụ nhập `105.000` để được giá trị 105000 đồng.
 
-```
+
 
 ## Hình ảnh minh họa
 
