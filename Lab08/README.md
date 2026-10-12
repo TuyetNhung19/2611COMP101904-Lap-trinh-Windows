@@ -1,9 +1,9 @@
 # Lab08 - Simple Paint
 
 ## Thông tin sinh viên
-Họ tên: Võ Ngọc Tuyết Nhung
-MSSV: 49.01.103.058
-Lớp: 49.01.SPTIN.A
+- Họ tên: Võ Ngọc Tuyết Nhung
+- MSSV: 49.01.103.058
+- Lớp: 49.01.SPTIN.A
 
 ## Mô tả
 Ứng dụng vẽ tương tác bằng chuột trên canvas. Các nét vẽ được lưu trong `List<DrawItem>` và vẽ lại trong sự kiện `Paint`, nên không bị mất khi resize hoặc khi cửa sổ bị che rồi hiện lại.
