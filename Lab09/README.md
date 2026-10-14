@@ -57,17 +57,6 @@ Mã sinh viên, họ tên, ngày sinh, giới tính, lớp, khoa, khóa học, �
 
 ### Form chính (trạng thái ban đầu)
 ![Giao diện chính](screenshots/1_giao_dien_chinh.png)
-**Chưa nhập mã sinh viên**
-
-![Cảnh báo chưa nhập MSSV](screenshots/9_canh_bao_chua_nhap_mssv.png)
-
-**Chưa nhập họ tên**
-
-![Cảnh báo chưa nhập họ tên](docs/screenshots/10_canh_bao_chua_nhap_mssv.png)
-
-**Chưa chọn ảnh sinh viên**
-
-![Cảnh báo thiếu ảnh](docs/screenshots/11_canh_bao_thieu_anh_sv.png)
 
 ### Xem trước khi in
 ![Xem trước khi in](screenshots/2_xem_truoc_khi_in.png)
