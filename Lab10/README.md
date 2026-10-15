@@ -41,7 +41,6 @@ Các ràng buộc đã cài đặt:
   10. Liệt kê các lớp có từ 2 sinh viên trở lên (HAVING)
   11. Test lỗi khi thêm sinh viên vào lớp không tồn tại
   12. Test lỗi khi nhập điểm ngoài khoảng 0 đến 10
-- Test bổ sung: giới tính không hợp lệ, trùng khóa chính, số tín chỉ bằng 0.
 
 ## Cách chạy
 1. Mở SQL Server Management Studio (SSMS) và kết nối SQL Server.
