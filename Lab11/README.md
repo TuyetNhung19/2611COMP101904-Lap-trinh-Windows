@@ -23,27 +23,7 @@ Dữ liệu lớp học được lưu trong bảng `LOP`, không lưu tạm bằ
 - F7: Làm mới: xóa nội dung TextBox, mở khóa `txtMaLop` và load lại dữ liệu
 - F8: Toàn bộ câu SQL có dữ liệu người dùng đều dùng `SqlParameter`
 
-## Cấu trúc project
-```
-Lab11_ADO.NETvaCRUDvoiSQLServer/
-|-- Program.cs
-|-- FrmLop.cs               # Xử lý sự kiện + truy vấn SQL
-|-- FrmLop.Designer.cs      # Giao diện
-|-- FrmLop.resx
-|-- EduManagerDB.sql        # Script tạo database và dữ liệu mẫu
-`-- Lab11_ADO.NETvaCRUDvoiSQLServer.csproj
-```
 
-Các hàm chính trong `FrmLop.cs`:
-
-| Hàm | Vai trò |
-|-----|---------|
-| `LoadData()` | Lấy danh sách lớp + số sinh viên (`LEFT JOIN` + `COUNT`) đổ lên DataGridView |
-| `ValidateInput()` | Kiểm tra mã lớp, tên lớp không rỗng |
-| `IsMaLopExists(maLop)` | Kiểm tra trùng mã lớp |
-| `CountSinhVienByLop(maLop)` | Đếm sinh viên của lớp trước khi xóa |
-| `ClearInput()` | Xóa TextBox, mở khóa `txtMaLop` |
-| `btnThem_Click`, `btnSua_Click`, `btnXoa_Click`, `btnTimKiem_Click`, `btnLamMoi_Click` | Xử lý các nút chức năng |
 
 ## Cơ sở dữ liệu
 - File script: [`EduManagerDB.sql`](EduManagerDB.sql) (tạo database, các bảng và dữ liệu mẫu)
@@ -51,7 +31,6 @@ Các hàm chính trong `FrmLop.cs`:
 - `SINHVIEN.MaLop` là khóa ngoại tham chiếu `LOP.MaLop`
 - Dữ liệu mẫu: 3 lớp (`CNTT01`, `CNTT02`, `SPTIN01`), mỗi lớp có 2 sinh viên
 
-Lưu ý: script là phiên bản đầy đủ của EduManagerDB (buổi 10), có thêm bảng `KHOA`, `MONHOC`, `KETQUA`, `TAIKHOAN`. Vì cột `LOP.MaKhoa` bắt buộc có giá trị nên khi thêm lớp mới, chương trình gán mặc định `MaKhoa = 'FIT'`.
 
 ## Connection string
 Connection string đang dùng trên máy cá nhân (khai báo trong `FrmLop.cs`):
