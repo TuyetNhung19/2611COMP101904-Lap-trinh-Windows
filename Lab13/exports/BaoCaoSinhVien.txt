@@ -1,0 +1,10 @@
+﻿BÁO CÁO SINH VIÊN - CNTT K47A - Kết quả: Đạt
+Ngày lập: 22/10/2026 12:55
+
+STT	Mã SV	Họ tên	Lớp	Điểm	Kết quả
+1	SV004	Phạm Thanh Dung	CNTT K47A	9.1	Đạt
+2	SV001	Nguyễn Văn An	CNTT K47A	8.2	Đạt
+3	SV002	Trần Thị Bình	CNTT K47A	6.5	Đạt
+4	SV005	Phan Văn Em	CNTT K47A	5	Đạt
+
+Tổng số SV: 4 | Đạt: 4 | Không đạt: 0 | Điểm TB: 7,20
