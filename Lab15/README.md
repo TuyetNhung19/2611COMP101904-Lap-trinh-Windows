@@ -1,8 +1,8 @@
 # Lab 15 – Quản lý sinh viên theo mô hình MVP
 
 - **Sinh viên:** Võ Ngọc Tuyết Nhung
-– **MSSV:** 49.01.103.058 
-– **Lớp:** 49.01.SPTIN.A
+- **MSSV:** 49.01.103.058 
+- **Lớp:** 49.01.SPTIN.A
 
 
 ## 1. Giới thiệu
