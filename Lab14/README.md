@@ -1,16 +1,17 @@
 # Lab 14 – EduManager: Quản lý môn học (Entity Framework Core + mô hình ba lớp)
 
-**Môn học:** COMP1019 – Lập trình trên Windows  
-**Sinh viên:** ................................  **MSSV:** ................................  **Lớp:** ................................  
-**Repository:** https://github.com/<ten-tai-khoan>/Lab14_EduManager
+**Họ và tên:** Võ Ngọc Tuyết Nhung
+**MSSV:** 49.01.103.058
+**Lớp:** 49.01.SPTIN.A
+
 
 ---
 
-## 1. Giới thiệu
+## Giới thiệu
 
 Module **Quản lý môn học** thuộc hệ thống EduManager. Ứng dụng Windows Forms cho phép thêm, sửa, xóa, tìm kiếm và xem danh sách môn học lưu trong SQL Server. Dữ liệu được truy cập bằng **Entity Framework Core** và mã nguồn được tổ chức theo **mô hình ba lớp GUI – BLL – DAL**.
 
-## 2. Công nghệ sử dụng
+## Công nghệ sử dụng
 
 | Thành phần | Phiên bản |
 |---|---|
@@ -19,34 +20,9 @@ Module **Quản lý môn học** thuộc hệ thống EduManager. Ứng dụng W
 | Cơ sở dữ liệu | SQL Server (SQL Express) |
 | Công cụ | Visual Studio 2022, SQL Server Management Studio |
 
-## 3. Cấu trúc thư mục
 
-```
-Lab14_EduManager
-|-- README.md
-|-- .gitignore
-|-- SQL
-|   |-- TaoCoSoDuLieu.sql           # script tạo database, bảng MONHOC, dữ liệu mẫu
-|-- TaiLieu
-|   |-- AnhChup                     # ảnh chụp màn hình minh chứng
-|-- EduManager
-    |-- EduManager.csproj
-    |-- Program.cs
-    |-- Models
-    |   |-- MonHoc.cs               # Entity
-    |-- Data
-    |   |-- EduManagerContext.cs    # DbContext
-    |-- DAL
-    |   |-- MonHocDAL.cs            # truy cập CSDL bằng EF Core
-    |-- BLL
-    |   |-- MonHocBLL.cs            # validation và nghiệp vụ
-    |   |-- KetQuaXuLy.cs           # đối tượng kết quả trả về cho GUI
-    |-- GUI
-        |-- FrmMonHoc.cs            # xử lý sự kiện
-        |-- FrmMonHoc.Designer.cs   # thiết kế giao diện
-```
 
-## 4. Cơ sở dữ liệu
+## Cơ sở dữ liệu
 
 Bảng `MONHOC`:
 
