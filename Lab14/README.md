@@ -1,8 +1,8 @@
 # Lab 14 – EduManager: Quản lý môn học (Entity Framework Core + mô hình ba lớp)
 
-**Họ và tên:** Võ Ngọc Tuyết Nhung
-**MSSV:** 49.01.103.058
-**Lớp:** 49.01.SPTIN.A
+- **Họ và tên:** Võ Ngọc Tuyết Nhung
+- **MSSV:** 49.01.103.058
+- **Lớp:** 49.01.SPTIN.A
 
 
 ---
