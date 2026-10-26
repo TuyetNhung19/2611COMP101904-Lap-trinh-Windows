@@ -41,7 +41,6 @@ Người dùng bấm nút → FrmStudent (View) → StudentPresenter → IStuden
 - Presenter **không** truy cập TextBox, DataGridView hay MessageBox; chỉ làm việc qua `IStudentView`.
 
 ## 5. Kiểm thử
-Chi tiết trong [`docs/TestCases.md`](docs/TestCases.md). Các trường hợp đã chạy:
 
 | ID | Chức năng | Dữ liệu / Thao tác | Kết quả mong đợi | Ảnh |
 |----|-----------|--------------------|------------------|-----|
